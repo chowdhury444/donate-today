@@ -1,6 +1,11 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+}
+
 .top-banner {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -15,7 +20,6 @@
 
 .top-text {
     height: 100%;
-    border: 1px solid orangered;
     background-color: rgba(0, 0, 0, 0.514);
 }
 
@@ -24,6 +28,7 @@ h1 {
     font-size: 80px;
     padding: 100px;
     margin-bottom: -50px;
+    padding-top: 200px;
 }
 
 h3 {
@@ -35,7 +40,122 @@ h3 {
 
 a {
     text-decoration: none;
-    color: black;
-    background-color: orangered;
+    background-image: linear-gradient(yellow, rgb(255, 0, 0));
     padding: 10px 40px;
+    border-radius: 5px;
+    columns: white;
+    font-weight: 700;
+}
+
+.header-b {
+    color: black;
+    font-size: 60px;
+}
+
+.text-b {
+    color: rgba(0, 0, 0, 0.466);
+    margin-bottom: -30px;
+}
+
+.flex {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.568);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 70px 0px 0px 0px;
+    background-color: aliceblue;
+
+}
+
+.flex-b {
+    font-size: 40px;
+    color: orangered;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 70px 0px 0px 0px;
+    background-color: bisque;
+}
+
+.flex-div {
+    display: flex;
+    margin: 10% 13% 5% 27%;
+
+}
+
+.amount {
+    color: rgba(0, 0, 0, 0.26);
+    margin-top: 80px;
+    margin-bottom: -8px;
+}
+
+hr {
+    padding-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.donate-button-b {
+    margin-bottom: 0px;
+}
+
+.icons-sec {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.icons-div-a {
+    background-color: aliceblue;
+    background-size: 300px 400px;
+    padding: 50px 0px 0px 20px;
+    margin: 20px;
+    width: 1000px;
+    height: 400px;
+}
+
+.icons-div-b {
+    background-color: bisque;
+    background-size: 300px 400px;
+    padding: 50px 0px 0px 20px;
+    margin: 20px;
+    width: 1000px;
+}
+
+.icons-div-c {
+    background-color: beige;
+    background-size: 300px 400px;
+    padding: 50px 0px 0px 20px;
+    margin: 20px;
+    width: 1000px;
+}
+
+.sec-d-header {
+    color: black;
+    padding-top: 0%;
+}
+
+.banner-d {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.sec-d-div-a {
+    width: 50%;
+}
+
+.sec-d-div-a img {
+    width: 100%;
+}
+
+.banner-d-paragraph {
+    color: black;
+    margin-left: 100px;
+    padding-top: -30px;
+    padding-bottom: -20px;
+    margin-top: -30px;
+}
+
+.contribute-button {
+    margin-left: 100px;
 }
