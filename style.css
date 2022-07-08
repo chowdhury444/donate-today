@@ -38,7 +38,7 @@ h3 {
     margin-bottom: 80px;
 }
 
-a {
+.button-a {
     text-decoration: none;
     background-image: linear-gradient(yellow, rgb(255, 0, 0));
     padding: 10px 40px;
@@ -96,7 +96,7 @@ hr {
     margin-right: 25%;
 }
 
-.donate-button-b {
+.button-a {
     margin-bottom: 0px;
 }
 
@@ -156,6 +156,77 @@ hr {
     margin-top: -30px;
 }
 
-.contribute-button {
+.button-a {
+    margin-left: 100px;
+}
+
+
+.sec-e-header {
+    color: black;
+    padding-top: 0%;
+}
+
+.banner-e {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.sec-e-div-a {
+    width: 50%;
+}
+
+.sec-e-div-a img {
+    width: 100%;
+}
+
+.banner-e-paragraph {
+    color: black;
+    margin-left: 100px;
+    padding-top: -30px;
+    padding-bottom: -20px;
+    margin-top: -30px;
+}
+
+.button-a {
+    margin-left: 100px;
+}
+
+
+
+.sec-f-header {
+    color: red;
+    padding-top: 0%;
+    text-;
+}
+
+.banner-f {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.sec-f-div-a {
+    width: 50%;
+}
+
+.sec-f-div-a img {
+    width: 100%;
+}
+
+.banner-f-paragraph {
+    color: black;
+    margin-left: 100px;
+    padding-top: -30px;
+    padding-bottom: -20px;
+    margin-top: -30px;
+}
+
+.button-f {
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 0, 0), orangered);
+    padding: 10px 40px;
+    border-radius: 5px;
+    columns: white;
+    font-weight: 700;
     margin-left: 100px;
 }
